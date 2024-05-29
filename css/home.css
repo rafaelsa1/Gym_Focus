@@ -1,0 +1,108 @@
+#conteudo{
+padding-top: 50px;
+padding-left: 55px;
+padding-right: 48px;  
+
+display: flex;
+flex-direction: column;
+gap: 22px;
+color: white;
+
+background-image: url(../images/freepik-export-202405262343362HA3.jpeg);
+background-repeat:no-repeat;
+background-size: cover;
+background-position: center top bottom;
+background-color: black;
+}
+#conteudo1 span{
+    color: rgb(190,203,85);
+    text-transform: uppercase;
+}
+#conteudo1 h1{
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+#conteudo1 hr{
+    width: 225px;
+    height: 1px;
+    color: white;
+}
+#conteudo1 p{
+    padding-top: 16px;
+}
+#conteudo2{
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+    padding-bottom: 24px;
+}
+#beneficios{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#rodape1{
+    color: white ;
+
+}
+#rodape1>h1{
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    color: white;
+}
+.g1{
+    color: rgb(12,90,117);
+}
+.f1{
+    color: rgb(190,203,85);
+}
+#atividades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    list-style: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.atividade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    margin-left: 55px;
+    margin-right: 55px;
+}
+#background-rodape2{
+    color: black;
+    background-color: white;
+
+}
+#rodape2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    padding-top: 32px;
+}
+#rodape2>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#rodape2>ul>li{
+    display: flex;
+    gap: 16px;
+}
+#rodape3{
+    text-align: center;
+    margin-top: 64px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}

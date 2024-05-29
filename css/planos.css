@@ -1,0 +1,94 @@
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+.coluna-preco {
+    padding: 10px;
+}
+.preco {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.preco-titulo {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.preco-subtitulo {
+    font-size: 14px;
+    color: #666;
+}
+
+.preco-valor {
+    font-size: 48px;
+    font-weight: 700;
+    color: #333;
+    margin: 20px 0;
+}
+
+.preco-caracteristica {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.preco-caracteristica-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.preco-caracteristica-item i {
+    margin-right: 10px;
+    color: #4caf50;
+}
+.preco-botao1 {
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 8rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.preco-botao {
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.preco-botao:hover {
+    background-color: #45a049;
+}
+
+.preco-mais-vendido {
+    position: relative;
+    background-color: #ff9800;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: -30px;
+    margin-bottom: 32px;
+    transform: rotate(45deg);
+}

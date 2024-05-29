@@ -1,0 +1,200 @@
+
+main{
+  padding-top: 64px;
+  background-image: url(../images/Sem_titulo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding-bottom: 64px  ;
+}
+/*h2{
+  text-align: center;
+}
+#grade-de-funcionamento{
+  padding-top: 128px;
+}
+#grade-de-aulas{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  th,td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: rgb(12,90,112);
+  }
+  td {
+    background-color:#b9e97b;
+  }
+table {
+  border-collapse: collapse;
+  width: 350px;
+}
+th,td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: rgb(12,90,112);
+}
+td {
+  background-color:#b9e97b;
+}
+#tabelas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 64px;
+}
+.tabela1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+}
+.tabela2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: inline;
+}
+.tabela3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: inline;
+}
+.tabela4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: inline;
+}
+.tabela5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: inline;
+}
+h1{
+  text-align: center;
+  margin-bottom: 48px;
+}
+#grade-de-funcionamento{
+  padding-bottom: 64px ;
+}*/
+#tabelas{
+  display: flex;
+  flex-direction: column;
+}
+.titulo{
+  text-align: center;
+  margin-bottom: 64px;
+}
+.grade{
+  color:  black;
+}
+.de-aulas{
+  color: black;
+}
+#grade-da-semana{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.grade-de-aulas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grade-de-aulas>h2{
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+.grade-de-aulas2{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+
+  background-color: black;
+  color: white;
+  padding: 16px 16px;
+  border-radius: 25px;
+}
+.uls{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.horario-e-aula{
+
+}
+.aula{
+  background-color: rgb(190,203,85);
+  width: 80px ;
+  /*border: 3px solid rgb(190,203,85);*/
+  border-radius: 25px;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+}
+.horario{
+  background-color: rgb(12,90,117); 
+  width: 80px;
+  padding: 5px 8px;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+}
+#linha-main{
+  margin-top: 80px;
+  border:1px solid black;
+}
+#grade-de-funcionamento{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 128px;
+}
+#grade-de-funcionamento>h1{
+margin-bottom: 64px ;
+}
+#horario-de-funcionamento{
+  display: flex;
+  gap: 32px;
+  background-color: black;
+  color: white;
+  padding: 24px 18px;
+  border-radius: 25px;
+}
+  #horario-de-funcionamento>ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+.dias{
+  background-color: rgb(190,203,85);
+  border-radius: 25px;
+  color: white;
+  padding: 5px 8px;
+  width: 180px;
+  text-align: center;
+}
+.horario1{
+  background-color: rgb(12,90,117);
+  border-radius: 25px;
+  color: white;
+  padding: 5px 8px;
+}
+
+

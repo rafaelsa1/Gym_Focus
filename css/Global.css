@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;   
+}
+a{
+    color: black;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 55px;
+    padding-right:  55px;
+    background-color: white;
+}
+.logo>a{
+    display: flex;
+    align-items: center;
+}
+.engrenagem-logo{
+    padding-bottom: 24px;
+    padding-top: 24;
+}
+.gym-cor{
+    font-family: teko;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(12,90,117);
+}
+.focus-cor{
+    font-family: teko;
+    font-size: 32px;
+    font-weight: 600;
+    color:rgb(190,203,85);
+}
+.menu{
+    display: flex;
+    flex-direction: row;        
+    gap: 25px; 
+
+    list-style: none;
+    font-size: larger;
+}
